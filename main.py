@@ -6,7 +6,7 @@ def main():
 
     options()
     answear = ansChecker()
-    print(answear)
+    methodStarter(answear)    
     
 
 def menu():
@@ -31,6 +31,19 @@ def ansChecker():
                 return answer
             else: print("There is no option with this number")
         except: print("You have to insert numbers")
+
+def methodStarter(answear):
+    if answear == 1:
+        pass
+    elif answear == 2:
+        pass
+    elif answear == 8:
+        pass
+    elif answear == 9:
+        pass
+    elif answear == 0:
+        quit
+
 
 if __name__ == "__main__":
     main()
